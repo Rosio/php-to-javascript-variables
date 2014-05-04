@@ -1,0 +1,20 @@
+{
+    "name": "rosio/php-to-javascript-variables",
+    "description": "",
+    "authors": [
+        {
+            "name": "Ben",
+            "email": "ben@ros.io"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Rosio\\PhpToJavaScriptVariables": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
