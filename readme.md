@@ -2,6 +2,7 @@ PHP To JavaScript Variables
 ===
 
 Simple package which allows easy sharing of variables from PHP to JavaScript.
+This is a rewrite of the [laracasts/utilities](https://github.com/laracasts/PHP-Vars-To-Js-Transformer) package.  I was prompted to do this due to the aformentioned package requiring PHP 5.4+, and I disliked their design.
 
 
 Installation
