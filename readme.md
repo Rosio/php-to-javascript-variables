@@ -48,7 +48,7 @@ views\hello.php
 <html lang="en">
 <head>
 	...
-	{{ JSLocalizeDumper::dump() }}
+	{{ App::make('JSLocalizeDumper')->dump() }}
 	...
 </head>
 <body>
