@@ -1,5 +1,6 @@
 PHP To JavaScript Variables
 ===
+![Build Status](https://circleci.com/gh/Rosio/php-to-javascript-variables.png?circle-token=a777b3036f5fa26c2667b5ffb63c18851a4ac0a6)  
 
 Simple package which allows easy sharing of variables from PHP to JavaScript.
 This is a rewrite of the [laracasts/utilities](https://github.com/laracasts/PHP-Vars-To-Js-Transformer) package.  I was prompted to do this due to the aformentioned package requiring PHP 5.4+, and I disliked their design.
