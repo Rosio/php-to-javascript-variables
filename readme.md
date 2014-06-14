@@ -12,7 +12,7 @@ composer.json
 ```javascript
 "require": {
 	...
-	"rosio/php-to-javascript-variables": "~1.0.0"
+	"rosio/php-to-javascript-variables": "~1.0"
 }
 ```
 
