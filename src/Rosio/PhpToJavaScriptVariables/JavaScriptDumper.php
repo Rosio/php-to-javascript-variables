@@ -5,24 +5,19 @@ namespace Rosio\PhpToJavaScriptVariables;
 class JavaScriptDumper
 {
 	protected $variables;
-	protected $namespace;
 
-	public function __construct (JavaScriptVariableManager $variables, $namespace = 'window')
+	public function __construct (JavaScriptVariableManager $variables)
 	{
 		$this->variables = $variables;
 		$this->namespace = $namespace;
 	}
 
-	public function dump ()
+	public function dump($namespace = 'app')
 	{
 		$output = '<script type="text/javascript">'."\n";
-
-		$namespace = $this->namespace;
-		if ($namespace != 'window')
-		{
-			$namespace = 'window.' . $namespace;
-			$output .= $namespace . ' = {};'."\n";
-		}
+		
+		$namespace = 'window.' . $namespace;
+		$output .= $namespace . ' = {};'."\n";
 
 		$output .= '(function (context) {'."\n";
 
