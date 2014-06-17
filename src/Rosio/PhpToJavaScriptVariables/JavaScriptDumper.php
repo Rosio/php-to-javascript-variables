@@ -9,7 +9,6 @@ class JavaScriptDumper
 	public function __construct (JavaScriptVariableManager $variables)
 	{
 		$this->variables = $variables;
-		$this->namespace = $namespace;
 	}
 
 	public function dump($namespace = 'app')
