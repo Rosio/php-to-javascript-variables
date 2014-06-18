@@ -26,7 +26,7 @@ class PhpToJavaScriptVariablesServiceProvider extends ServiceProvider {
 		});
 
 		$this->app->singleton('JSLocalizeDumper', function ($app) {
-			return new JavaScriptDumper($app->make('JSLocalize'), 'app');
+			return new JavaScriptDumper($app->make('JSLocalize'));
 		});
 	}
 
