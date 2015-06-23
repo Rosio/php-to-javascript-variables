@@ -33,7 +33,7 @@ class PhpToJavaScriptVariablesServiceProvider extends ServiceProvider {
     public function boot()
     {
     	// if laravel 4.x, will call package method
-    	if (substr(\Illuminate\Foundation\Application::VERSION, 0, 1) === 4) {
+    	if (substr(\Illuminate\Foundation\Application::VERSION, 0, 1) == 4) {
     		$this->package('rosio/phpToJavaScriptVariables');
     	}
 
